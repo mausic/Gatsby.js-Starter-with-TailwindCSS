@@ -18,7 +18,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prettify": "yarn prettier --write src/",
-    "lint": "yarn eslint --fix --ext .js src/"
+    "lint": "yarn eslint --fix --ext .js src/",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -43,6 +44,12 @@
     "eslint-config-google": "latest",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "latest",
+    "husky": ">=6",
+    "lint-staged": ">=10",
     "prettier": "^2.4.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
