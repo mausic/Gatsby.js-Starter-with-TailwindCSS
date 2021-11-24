@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://investors.clueby.com",
     title: "Clueby Investor Summary",
   },
   plugins: [
