@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-transformer-sharp", "virtual:fadd5f70d45e867c0f6a8e83aaf74e8fb08fc3f81f1a4e1f36f65b611f8e219fdf20a7e86b52b7b52892a90e81bc8f8d6750f0783cd0db55ba6233a7ad695768#npm:4.2.0"],
             ["husky", "npm:7.0.4"],
             ["lint-staged", "npm:12.1.2"],
-            ["postcss", "npm:8.4.0"],
+            ["postcss", "npm:8.4.1"],
             ["prettier", "npm:2.4.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:fadd5f70d45e867c0f6a8e83aaf74e8fb08fc3f81f1a4e1f36f65b611f8e219fdf20a7e86b52b7b52892a90e81bc8f8d6750f0783cd0db55ba6233a7ad695768#npm:17.0.2"],
@@ -7145,7 +7145,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-transformer-sharp", "virtual:fadd5f70d45e867c0f6a8e83aaf74e8fb08fc3f81f1a4e1f36f65b611f8e219fdf20a7e86b52b7b52892a90e81bc8f8d6750f0783cd0db55ba6233a7ad695768#npm:4.2.0"],
             ["husky", "npm:7.0.4"],
             ["lint-staged", "npm:12.1.2"],
-            ["postcss", "npm:8.4.0"],
+            ["postcss", "npm:8.4.1"],
             ["prettier", "npm:2.4.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:fadd5f70d45e867c0f6a8e83aaf74e8fb08fc3f81f1a4e1f36f65b611f8e219fdf20a7e86b52b7b52892a90e81bc8f8d6750f0783cd0db55ba6233a7ad695768#npm:17.0.2"],
@@ -10962,7 +10962,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/gatsby", null],
             ["@types/postcss", null],
             ["gatsby", "virtual:fadd5f70d45e867c0f6a8e83aaf74e8fb08fc3f81f1a4e1f36f65b611f8e219fdf20a7e86b52b7b52892a90e81bc8f8d6750f0783cd0db55ba6233a7ad695768#npm:4.2.0"],
-            ["postcss", "npm:8.4.0"],
+            ["postcss", "npm:8.4.1"],
             ["postcss-loader", "virtual:fa69ae5171925e4c26007276a82998442760e976ccb3038a4afa0a9ae8ea353daf256bed545b127cebc2193be6e0451e05cd8f54b08aee1dd6173f3c45a3f209#npm:4.3.0"]
           ],
           "packagePeers": [
@@ -16717,6 +16717,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map-js", "npm:1.0.1"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:8.4.1", {
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.1-6c95363249-89ede712cc.zip/node_modules/postcss/",
+          "packageDependencies": [
+            ["postcss", "npm:8.4.1"],
+            ["nanoid", "npm:3.1.30"],
+            ["picocolors", "npm:1.0.0"],
+            ["source-map-js", "npm:1.0.1"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["postcss-calc", [
@@ -16946,7 +16956,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cosmiconfig", "npm:7.0.1"],
             ["klona", "npm:2.0.5"],
             ["loader-utils", "npm:2.0.2"],
-            ["postcss", "npm:8.4.0"],
+            ["postcss", "npm:8.4.1"],
             ["schema-utils", "npm:3.1.1"],
             ["semver", "npm:7.3.5"],
             ["webpack", null]

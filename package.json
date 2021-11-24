@@ -19,7 +19,8 @@
     "clean": "gatsby clean",
     "prettify": "yarn prettier --write src/",
     "lint": "yarn eslint --fix --ext .js src/",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "upgrade": "yarn upgrade-interactive"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -34,9 +35,9 @@
     "gatsby-plugin-sitemap": "^5.2.0",
     "gatsby-source-filesystem": "^4.2.0",
     "gatsby-transformer-sharp": "^4.2.0",
-    "postcss": "^8.4.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "postcss": "^8.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
