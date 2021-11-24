@@ -16,7 +16,9 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "prettify": "yarn prettier --write src/",
+    "lint": "yarn eslint --fix --ext .js src/"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",

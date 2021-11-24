@@ -149,7 +149,8 @@ const IndexPage = () => {
         <li style={docLinkStyle}>
           <a
             style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}>
+            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+          >
             {docLink.text}
           </a>
         </li>
@@ -158,7 +159,8 @@ const IndexPage = () => {
             <span>
               <a
                 style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}>
+                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+              >
                 {link.text}
               </a>
               {link.badge && (
