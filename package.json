@@ -4,8 +4,12 @@
   "private": true,
   "description": "Clueby Investor Summary",
   "author": "Maksym Ryndia",
+  "packageManager": "yarn@3.1.0",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "tailwindcss",
+    "clueby",
+    "investors"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -32,5 +36,11 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
   },
-  "packageManager": "yarn@3.1.0"
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-google": "latest",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "latest",
+    "prettier": "^2.4.1"
+  }
 }
