@@ -17,6 +17,8 @@ jobs:
           node-version: 14
       # install dependencies
       - name: Install dependencies
+        run: yarn install
+      - name: Build
         run: yarn build
         env:
           CI: true
