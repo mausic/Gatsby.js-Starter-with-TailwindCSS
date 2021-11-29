@@ -1,0 +1,6 @@
+.cache
+.husky
+.vscode
+.yarn
+public
+src/images
