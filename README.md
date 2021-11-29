@@ -39,16 +39,18 @@ This is a starter repo with:
 
    Edit `src/pages/index.js` to see your site update in real-time!
 
-4. **Learn more**
+## ☕️ Upgrade dependicnes
 
-   - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+We use [plugin-interactive-tool](https://yarnpkg.com/api/modules/plugin_interactive_tools.html) for `yarn` for intercative dependencies updates/upgrades. To use it execute
 
-   - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```shell
+yarn upgrade
+```
 
-   - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## 📖 Learn more
 
-   - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-   - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-   - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [Gatsby docs](https://www.gatsbyjs.com/docs)
+- [Gatsby Plugin Library](https://www.gatsbyjs.com/plugins)
+- [Gatsby Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/)
+- [TailwindCSS docs](https://tailwindcss.com/docs)
+- [TailwindCSS Official UI Kit](https://tailwindui.com/)
