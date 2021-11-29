@@ -18,10 +18,12 @@ jobs:
       # install dependencies
       - name: Install dependencies
         run: yarn install
+      # build
       - name: Build
         run: yarn build
         env:
           CI: true
+      # deploy
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
