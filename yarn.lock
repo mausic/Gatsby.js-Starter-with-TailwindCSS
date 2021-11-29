@@ -4827,38 +4827,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clueby-investor-summary@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "clueby-investor-summary@workspace:."
-  dependencies:
-    "@mdx-js/mdx": ^1.6.22
-    "@mdx-js/react": ^1.6.22
-    autoprefixer: latest
-    eslint: ^8.3.0
-    eslint-config-google: latest
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-react: latest
-    gatsby: ^4.2.0
-    gatsby-plugin-image: ^2.2.0
-    gatsby-plugin-manifest: ^4.2.0
-    gatsby-plugin-mdx: ^3.2.0
-    gatsby-plugin-postcss: ^5.2.0
-    gatsby-plugin-react-helmet: ^5.2.0
-    gatsby-plugin-sharp: ^4.2.0
-    gatsby-plugin-sitemap: ^5.2.0
-    gatsby-source-filesystem: ^4.2.0
-    gatsby-transformer-sharp: ^4.2.0
-    husky: ">=6"
-    lint-staged: ">=10"
-    postcss: latest
-    prettier: ^2.4.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-helmet: ^6.1.0
-    tailwindcss: latest
-  languageName: unknown
-  linkType: soft
-
 "coa@npm:^2.0.2":
   version: 2.0.2
   resolution: "coa@npm:2.0.2"
@@ -8013,6 +7981,38 @@ __metadata:
   checksum: 44d0500715cf850eee207843975dcda84d6a0418f869f4daaec92411f239de23d5c99b030cda113452ecddd13eedc1585f8d372dab8b195ee8188d99df60abd3
   languageName: node
   linkType: hard
+
+"gatsby-tailwindcss-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "gatsby-tailwindcss-starter@workspace:."
+  dependencies:
+    "@mdx-js/mdx": ^1.6.22
+    "@mdx-js/react": ^1.6.22
+    autoprefixer: latest
+    eslint: ^8.3.0
+    eslint-config-google: latest
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-react: latest
+    gatsby: ^4.2.0
+    gatsby-plugin-image: ^2.2.0
+    gatsby-plugin-manifest: ^4.2.0
+    gatsby-plugin-mdx: ^3.2.0
+    gatsby-plugin-postcss: ^5.2.0
+    gatsby-plugin-react-helmet: ^5.2.0
+    gatsby-plugin-sharp: ^4.2.0
+    gatsby-plugin-sitemap: ^5.2.0
+    gatsby-source-filesystem: ^4.2.0
+    gatsby-transformer-sharp: ^4.2.0
+    husky: ">=6"
+    lint-staged: ">=10"
+    postcss: latest
+    prettier: ^2.4.1
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-helmet: ^6.1.0
+    tailwindcss: latest
+  languageName: unknown
+  linkType: soft
 
 "gatsby-telemetry@npm:^3.2.0":
   version: 3.2.0

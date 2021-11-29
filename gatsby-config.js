@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://investors.clueby.com',
-    title: 'Clueby Investor Summary',
+    siteUrl: 'https://yourpage.com',
+    title: 'Gatsby.js with TaliwindCSS starter',
   },
   plugins: [
     'gatsby-plugin-postcss',
